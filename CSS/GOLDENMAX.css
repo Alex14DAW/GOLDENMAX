@@ -1,0 +1,132 @@
+/*FONDO PANTALLA*/
+.fondo{
+    background-color:#131313;
+}
+
+/*CABECERA (HEADER-NAV)*/
+.logo{
+    padding-right: 17em;
+    color: #fffb00;
+    font-size: 40px;
+    font-family:Logo ;
+}
+.caja{
+    width: 98%;
+    margin: auto;
+}
+header .caja{
+    display: flex;
+    align-items: center;
+}
+header nav a{
+    font-family: Logo;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 7px;
+    
+}
+
+/*PAGINA (SECTION)*/
+.got{
+    background-image: url(../IMAGENES/JuegodeTronos.jpg) ;
+    height: 500px;
+    display: flex;
+}
+.principal{
+    padding-top: 300px;
+    color: #ffffff;
+    font-family: Logo;
+    font-size: 30px;
+}
+.descripcion{
+    color: #ffffff;
+    text-align: center;
+}
+div.botones a{
+    padding-bottom: 1em;
+    padding-left: 2em;
+    margin-left: 1em;
+
+}
+.botones{
+    height: 30px;
+}
+.reproducir{
+    background-image: url(../IMAGENES/boton.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+.info{
+    background-image: url(../IMAGENES/informacion.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+.secundario{
+    color: #ffffff;
+    font-family: Logo;
+    text-align: center;
+    font-size: 30px;
+}
+li img{
+    width: 70px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    color: #ffffff;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 1em 3em;
+}
+td{
+    color: #ffffff;
+    font-family: Logo;
+    font-size: 30px;
+}
+fieldset td{
+    color:#fbff00;
+    font-family: Logo;
+    font-size: 20px;
+}
+td img{
+    padding-right: 100px;
+}
+.mapa{
+    text-align: center;
+}
+.paypal{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.paypal a{
+    background-size: 120px;
+    background-image: url(../IMAGENES/paypal.png);
+    background-position: center;
+    border-style: solid;
+    border-color: rgb(43, 7, 250);
+    border-radius: 1em;
+    padding: 1.5em 5em;
+
+}
+/*FOOTER*/
+.redes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+footer img{
+    width: 30%;
+}
+
+/*FUENTES*/
+@font-face{
+    font-family: "Logo";
+    src: url("FUENTES/BebasNeue-Regular.otf");
+}
+
+

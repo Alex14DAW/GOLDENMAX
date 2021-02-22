@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <title>GOLDENMAX</title>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="CSS/GOLDENMAX.css" type="text/css"/>
+       <link rel="icon" href="./IMAGENES/Icono.png">
+       
+    </head>
+
+    <body class="fondo">
+            <header>
+                <div class="caja">
+                    <div>
+                        <img style="width: 70px;" src="IMAGENES/Icono.png" usemap="#image-map">
+                       <map name="image-map">
+                            <area target="" alt="Icono" title="Icono" href="index.html" coords="0,11,512,501" shape="rect">
+                        </map>
+                     </div>
+                    <h1 class="logo">GOLDENMAX</h1>
+                    <nav>
+                        <a href="index.html">Inicio</a>
+                        <a href="peliculas.html">Peliculas</a>
+                        <a href="series.html">Series</a>
+                        <a href="login.html">Login</a>
+                        <a href="contacto.html">Contacto</a>
+                        <a href="quienes_somos.html">¿Quienes somos?</a>
+                   </nav>
+                </div>
+            </header>
+
+            <section>
+                <form action="url(miarchivo.php)" method="get/post" name="nombreForm">
+                    <fieldset>
+                        <legend class="secundario">ACCEDE A GOLDENMAX</legend>
+                        <table>
+                            <tr>
+                                <td >
+                                    USUARIO:
+                                </td>
+                                <td>
+                                    <input type="text" name="NomUsu" value="" size="70"  maxlenght="30" pattern="[A-Za-z0-9\_\-\.]" required/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br/>
+                                    CONTRASEÑA:
+                                </td>
+                                <td>
+                                    <br/>
+                                    <input type="password" name="ConUsu" value="" size="70"  maxlenght="30" pattern="[A-Za-z0-9\_\-\.]" required/>
+                                </td>
+                            </tr>           
+                        </table>
+                    </fieldset>
+               
+                    <br>
+                    <fieldset>
+                        <legend class="secundario">REGISTRATE EN GOLDENMAX</legend>
+                        <table>
+                            <tr>
+                                <td >
+                                    USUARIO:
+                                </td>
+                                <td>
+                                    <input type="text" name="NomUsu" value="" size="70"  maxlenght="30" pattern="[A-Za-z0-9\_\-\.]" required/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br/>
+                                    CONTRASEÑA:
+                                </td>
+                                <td>
+                                    <br/>
+                                    <input type="password" name="ConUsu" value="" size="70"  maxlenght="30" pattern="[A-Za-z0-9\_\-\.]" required/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <br/>
+                                    NOMBRE:
+                                </td>
+                                <td>
+                                    <br/>
+                                    <input type="text" name="NomUsu" value="" size="40"  maxlenght="14" pattern="[A-Za-z]" required/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <br/>
+                                    APELLIDOS:
+                                </td>
+                                <td>
+                                    <br/>
+                                    <input type="text" name="ApeUsu" value="" size="70"  maxlenght="30" pattern="[A-Za-z]" required/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br/>
+                                    FECHA DE NACIMIENTO:
+                                </td>
+                                <td>
+                                    <br/>
+                                    <input type="date" name="Fecha" min="1900-12-31" max="2021-12-31"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <br/>
+                                    Direccion:
+                                </td>
+                                <td colspan="3" >
+                                    <br/>
+                                <input type="text" name="NomUsu"  size="150"  maxlenght="40" pattern="[A-Za-z0-9]" required/>
+                                </td>
+                            
+                            </tr>    
+                            <tr>
+                                <td>
+                                    <br/>
+                                    <label>Correo electronico:</label>
+                                
+                                </td>
+                                <td>
+                                    <br/>
+                                    <input type="email" pattern="[A-Za-z0-9\_\-\.]+[@][A-Za-z0-9\_\-\.]+\.((com)|(es))" name="EmailUsu" size="40"/>
+                                </td>
+                            </tr>  
+                            <tr>
+                                <td>
+                                    <br/>
+                                    <label>Telefono:</label>
+                                </td>
+                                <td>
+                                    <br/>
+                                    <input type="tel" pattern="[6-9][0-9]{8}" name="TelUsu" size="40"/><br/>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td>
+                                    <br/>
+                                    <input type="submit" value="REGISTRARSE">
+                                </td>
+                                <td>
+                                    <br/>
+                                    <input type="reset" value="BORRAR DATOS">
+                                </td>
+                            </tr> 
+                        </table> 
+                        <br/>
+                        <div class="paypal">
+                            <h1 class="secundario">PAGA CON PAYPAL</h1>
+                            <h1 class="secundario">AÑO:40€ &nbsp&nbsp  6 MESES:25€ &nbsp&nbsp 1 MES:5€</h1>
+                            <br/>
+                            <a href="https://www.paypal.com/es/home"></a>
+                            
+                        </div>  
+                        <br/>
+                    </fieldset>
+                    <br/>
+                    <fieldset>
+                        <legend class="secundario">OTROS INTERESES</legend>
+                        <table>
+                            <tr>
+                                <td >
+                                    <br/>
+                                    Observaciones:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" >
+                                    <textarea name="ObsUsu" id="ObsUsu" rows="3" cols="130"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Deporte" checked/>*ACEPTO RECIBIR PROMOCIONES DE LA EMPRESA<br/>   
+                                </td>
+                            </tr>       
+                        </table>
+                    </fieldset>
+                </form>
+            </section>
+        
+            <footer>
+                <hr size="4" color="yellow"/>
+                <div>
+                    <h1 class="secundario">Puedes encontrarnos en:</h1>
+                    <div class="redes">
+                        <a href="https://www.instagram.com/"><img src="./IMAGENES/instagram.svg" ></a>
+                        <a href="https://twitter.com/?lang=es"><img src="./IMAGENES/twitter.svg" ></a>
+                        <a href="https://www.whatsapp.com/?lang=es"><img src="./IMAGENES/whatsapp.svg" ></a>
+                        <a href="https://es-es.facebook.com/"><img src="./IMAGENES/facebook.svg" ></a>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li>GOLDENMAX</li>
+                        <li>Calle Gran Via,14</li>
+                        <li>666146614</li>
+                        <li>alejandrolopezfernandez.daw2020@riberadeltajo.es</li>
+                    </ul>
+                </div>
+
+            </footer>
+
+            
+    </body>
+</html>
